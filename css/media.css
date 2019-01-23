@@ -1,0 +1,80 @@
+
+@media(min-width:992px) and (max-width:1150px){
+
+  .masterClassAndFoto{
+    height: 500px;
+  }
+  .foto img{
+    height: 500px;
+  }
+  .fusingFoto{
+    height: 250px;
+  }
+}
+
+@media(min-width:768px) and (max-width:991px){
+  .logo{
+    width: 40%;
+    height: 80%;
+  }
+  .logoTel p{
+    width: 60%;
+    height: 80%;
+    font-size: 35px;
+    margin-top: 30px;
+    text-align: right;
+    margin-bottom: 0;
+  }
+
+  nav{
+    margin-top: 10px;
+  }
+   .menu li{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .masterClassAndFoto{
+    height: 400px;
+  }
+  .masterClasses_block .text{
+    top:60%;
+    font-size: 16px;
+  }
+  .foto img{
+    height: 400px;
+  }
+  .foto .text{
+    top: 80%;
+    font-size: 16px;
+  }
+  .fusingFoto{
+    height: 200px;
+  }
+}
+}
+
+@media screen and (min-width: 576px) {
+  .burger__icon{
+    display: inline-block;
+  }
+
+  ul.menu {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 52px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    overflow: auto;
+  }
+
+  .menu .education .interiorSubject .instrument {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+  }
+}

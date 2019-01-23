@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Стеклотека</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link href="https://fonts.googleapis.com/css?family=Kurale|Open+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  <header>
+    <section class="logoTel">
+      <img class="logo" src="img\logo1.png" alt="Логотип">
+      <p>+7-963-634-69-46</p>
+    </section>
+    <div class="burger">
+        <div class="burger__icon">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav>
+          <ul class="menu">
+            <li><a class="education" href="#">Обучение</a></li>
+            <li><a class="interiorSubject" href="#">Предметы интерьера</a></li>
+            <li><a class="instrument"href="#">Инструменты</a></li>
+          </ul>
+
+    </nav>
+    </div>
+
+  </header>
+
+  <main>
+    <section class="masterClassAndFoto">
+      <section class="masterClasses">
+      <article class="masterClasses_block">
+        <div class="img">
+          <a href="#"><img src="img/33.jpg" alt="Взрослый мастер-класс по фьюзингу"></a>
+        </div>
+        <div class="text">Взрослый мастер-класс по фьюзингу</div>
+      </article>
+      <article class="masterClasses_block">
+        <div class="img">
+          <a href="#"><img src="img/77.jpg" alt="Мастер-класс витраж Тиффани"></a>
+        </div>
+        <div class="text">Мастер-класс витраж Тиффани</div>
+      </article>
+      <article class="masterClasses_block">
+        <div class="img">
+          <a href="#"><img src="img/1010.jpg" alt="Мастер-класс для самых маленьких"></a>
+        </div>
+        <div class="text">Мастер-класс для самых маленьких</div>
+      </article>
+      <article class="masterClasses_block">
+        <div class="img">
+          <a href="#"><img src="img/1111.jpg" alt="Детский мастер-класс по фьюзингу от 7 лет"></a>
+        </div>
+        <div class="text">Детский мастер-класс по фьюзингу от 7 лет</div>
+      </article>
+      </section>
+      <section class="foto">
+        <img src="img/9.png" alt="большое фото">
+        <div class="text">Фотография офигенной работы по фьюзингу</div>
+      </section>
+    </section>
+    <section class="fusingFoto">
+        <article class="fusingFoto_block">
+          <div class="img"><img src="img/111.jpg" alt="Рыба"></div>
+          <div class="text">fusingFoto</div>
+        </article>
+        <article class="fusingFoto_block">
+          <div class="img"><img src="img/12.jpg" alt="fusingFoto"></div>
+          <div class="text">fusingFoto</div>
+        </article>
+        <article class="fusingFoto_block">
+          <div class="img"><img src="img/sova.jpg" alt="fusingFoto"></div>
+          <div class="text">fusingFoto</div>
+        </article>
+        <article class="fusingFoto_block">
+          <div class="img"><img src="img/sni.jpg" alt="fusingFoto"></div>
+          <div class="text">fusingFoto</div>
+        </article>
+    </section>
+  </main>
+  <footer>
+    <section class="contactsInfo">
+      <section class="infoAboutUs">
+        <ul>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Доставка</a></li>
+        </ul>
+      </section>
+      <section class="contacts">
+        <ul>
+          <li>Телефон: +7-963-634-69-46</li>
+          <li>Мы находимся: г. Москва, улица Касаткина, д. 3</li>
+          <li>e-mail: da79@ya.ru</li>
+        </ul>
+      </section>
+    </section>
+    <section class="infoAboutSite" >
+      <p>Стелотека 2019</p>
+    </section>
+  </footer>
+
+
+  <script type="text/javascript">
+      (function($){
+        $(function() {
+          $('.burger__icon').on('click', function() {
+            $(this).closest('.burger').toggleClass('burger_state_open');
+            });
+          });
+        });
+  </script>
+</body>
+</html>
