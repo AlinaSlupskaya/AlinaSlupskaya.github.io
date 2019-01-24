@@ -12,7 +12,7 @@
   }
 }
 
-@media(min-width:768px) and (max-width:991px){
+@media(min-width:769px) and (max-width:991px){
   .logo{
     width: 40%;
     height: 80%;
@@ -52,23 +52,34 @@
     height: 200px;
   }
 }
-}
 
-@media screen and (min-width: 576px) {
+
+@media(min-width: 425px) and (max-width: 769px) {
+
   .burger__icon{
     display: inline-block;
+  }
+  .burger{
+    margin-right: 5%;
+
   }
 
   ul.menu {
     position: fixed;
     display: none;
-    top: 0;
+    top: 4.5%;
     right: 0;
     left: 0;
     margin-top: 52px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-image: linear-gradient(to bottom, #ff9808, #fc9f02, #f8a600, #f5ad00, #f1b301, #f2ab00, #f2a400, #f29c00, #f58303, #f56714, #f34723, #ee1430);
+
     z-index: 1000;
     overflow: auto;
+  }
+  .menu li a{
+    text-shadow: none;
+    font-size: 120%;
+    text-align: left;
   }
 
   .menu .education .interiorSubject .instrument {
@@ -77,4 +88,175 @@
     text-align: center;
     color: #ffffff;
   }
+
+  .logoTel{
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    .logo{
+      width: 80%;
+      height: 65%;
+    }
+
+    header p{
+      font-size: 170%;
+      margin-left: 30px;
+      margin-top:0px;
+      margin-bottom: 20px;
+    }
+
+  	header{
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+    }
+    .masterClassAndFoto{
+      height: 400px;
+    }
+    .masterClasses_block .text{
+      top:75%;
+      font-size: 80%;
+      line-height: 1.2;
+    }
+    .foto img{
+      height: 400px;
+    }
+    .foto .text{
+      top: 85%;
+      font-size: 80%;
+
+    }
+    .fusingFoto{
+      height: 200px;
+    }
+    .fusingFoto_block .text{
+      top: 75%;
+      font-size: 80%;
+      line-height: 1.2;
+    }
+  }
+
+@media(max-width: 424px) and (min-width: 320px){
+
+  .burger__icon{
+    display: inline-block;
+  }
+  .burger{
+    margin-right: 5%;
+  }
+
+  ul.menu {
+    position: fixed;
+    display: none;
+    top: 4.5%;
+    right: 0;
+    left: 0;
+    margin-top: 52px;
+    background-image: linear-gradient(to bottom, #ff9808, #fc9f02, #f8a600, #f5ad00, #f1b301, #f2ab00, #f2a400, #f29c00, #f58303, #f56714, #f34723, #ee1430);
+
+    z-index: 1000;
+    overflow: auto;
+  }
+  .menu li a{
+    text-shadow: none;
+    font-size: 120%;
+    text-align: left;
+  }
+
+  .menu .education .interiorSubject .instrument {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .logoTel{
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .logo{
+      width: 80%;
+      height: 65%;
+  }
+
+    header p{
+      font-size: 170%;
+      margin-left: 30px;
+      margin-top:0px;
+      margin-bottom: 20px;
+      margin-right: 0;
+    }
+
+    header{
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+    }
+    .masterClassAndFoto{
+      flex-direction:column;
+      height: auto;
+      }
+    .masterClasses{
+      width: 100%;
+      height: 50%;
+      flex-direction:column;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
+    .masterClasses_block {
+      -webkit-flex-basis:100%;
+      width: 100%;
+      flex-basis: 100%;
+      height: 350px;
+      position: relative;
+      z-index:1;
+    }
+    .foto{
+      width: 100%;
+      max-height: 350px;
+      }
+    .foto img{
+      width: 100%;
+      max-height: 350px;
+      }
+      .foto .text{
+        position: absolute;
+        top: 80%;
+        font-size: 120%;
+        color: #ffffff;
+        padding-left: 5%;
+      }
+      .fusingFoto{
+        width: 100%;
+        height: auto;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        }
+      .fusingFoto_block{
+        -webkit-flex-basis: 100%;
+        width: 100%;
+        flex-basis: 100%;
+        max-height: 350px;
+        position: relative;
+        z-index:1;
+      }
+
+      .fusingFoto_block img{
+        height: 350px
+      }
+
+
+      footer li a{
+       font-size: 100%;
+      }
+      .contacts{
+       font-size: 80%;
+      }
+     .infoAboutSite{
+       font-size: 80%;
+      }
+     .infoAboutUs{
+       font-size: 80%;
+     }
 }
