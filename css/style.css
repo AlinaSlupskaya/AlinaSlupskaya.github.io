@@ -36,6 +36,7 @@ header p{
   color: #8B4513;
   font-weight:500;
   text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 
 }
 /* Burger */
@@ -213,6 +214,7 @@ main{
   bottom:0;
   left:0;
   box-sizing: border-box;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 .foto{
   width: 50%;
@@ -227,7 +229,7 @@ main{
   position: absolute;
   top: 85%;
   font-size: 18px;
-  color: #ffffff;
+   color: #ffffff;
   padding-left: 5%;
   display: flex;
   flex-direction: column;
@@ -236,6 +238,7 @@ main{
   bottom:0;
   left:0;
   box-sizing: border-box;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
   .foto .text p{
     line-height: 1.2em;
@@ -279,6 +282,7 @@ main{
   bottom:0;
   left:0;
   box-sizing: border-box;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 .fusingFoto_block .text p{
   line-height: 1.3em;
@@ -293,11 +297,12 @@ footer{
   font-size: 18px;
   font: 400 "Open Sans", sans-serif;
   box-shadow:inset 0 0 10px  rgba(0,0,0,0.5);
+  /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
 }
 
  .contactsInfo{
    display: flex;
-   justify-content:space-around;
+   justify-content:space-between;
    align-items: center;
  }
  footer li a{
@@ -311,9 +316,12 @@ footer{
    line-height: 200%;
    color:#FFFFFF;
    vertical-align:top;
+   text-decoration: none;
  }
  .infoAboutUs{
    width: 50%;
+   text-align: center;
+
  }
  .infoAboutSite{
     text-align: center;
