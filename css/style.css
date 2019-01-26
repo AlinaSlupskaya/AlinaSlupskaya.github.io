@@ -207,6 +207,11 @@ main{
   color: #ffffff;
   padding-left: 5%;
   font-weight:500;
+  background-color:rgba(245, 103, 20, 0.3);
+  width: 100%;
+  bottom:0;
+  left:0;
+  box-sizing: border-box;
 }
 .foto{
   width: 50%;
@@ -219,11 +224,22 @@ main{
   }
 .foto .text{
   position: absolute;
-  top: 90%;
+  top: 85%;
   font-size: 18px;
   color: #ffffff;
   padding-left: 5%;
-}
+  display: flex;
+  flex-direction: column;
+  background-color:rgba(245, 103, 20, 0.3);
+  width: 100%;
+  bottom:0;
+  left:0;
+  box-sizing: border-box;
+  }
+  .foto .text p{
+    line-height: 1.2em;
+    margin: 0;
+  }
 /* fusingFoto */
 
 .fusingFoto{
@@ -253,10 +269,19 @@ main{
 .fusingFoto_block .text{
   position: absolute;
   z-index: 2;
-  top:80%;
+  top:60%;
   font-size: 18px;
   color: #ffffff;
   padding-left: 5%;
+  background-color:rgba(245, 103, 20, 0.3);
+  width: 100%;
+  bottom:0;
+  left:0;
+  box-sizing: border-box;
+}
+.fusingFoto_block .text p{
+  line-height: 1.3em;
+  margin: 0;
 }
 
 /* footer */

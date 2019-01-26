@@ -10,6 +10,15 @@
   .fusingFoto{
     height: 250px;
   }
+  .foto .text{
+    font-size: 16px;
+    top: 80%;
+  }
+  .fusingFoto_block .text{
+    font-size: 16px;
+    top: 50%;
+
+  }
 }
 
 @media(min-width:769px) and (max-width:991px){
@@ -39,29 +48,32 @@
   }
   .masterClasses_block .text{
     top:60%;
-    font-size: 16px;
+    font-size: 100%;
   }
   .foto img{
     height: 400px;
   }
   .foto .text{
     top: 80%;
-    font-size: 16px;
+    font-size: 100%;
   }
   .fusingFoto{
     height: 200px;
   }
+  .fusingFoto_block .text{
+    font-size: 100%;
+    top:40%;
+  }
 }
 
 
-@media(min-width: 425px) and (max-width: 769px) {
+@media(min-width: 427px) and (max-width: 769px) {
 
   .burger__icon{
     display: inline-block;
   }
   .burger{
     margin-right: 5%;
-
   }
 
   ul.menu {
@@ -72,7 +84,6 @@
     left: 0;
     margin-top: 52px;
     background-image: linear-gradient(to bottom, #ff9808, #fc9f02, #f8a600, #f5ad00, #f1b301, #f2ab00, #f2a400, #f29c00, #f58303, #f56714, #f34723, #ee1430);
-
     z-index: 1000;
     overflow: auto;
   }
@@ -122,21 +133,21 @@
       height: 400px;
     }
     .foto .text{
-      top: 85%;
       font-size: 80%;
+      top: 85%;
 
     }
     .fusingFoto{
       height: 200px;
     }
     .fusingFoto_block .text{
-      top: 75%;
+      top: 50%;
       font-size: 80%;
-      line-height: 1.2;
-    }
-  }
 
-@media(max-width: 424px) and (min-width: 320px){
+    }
+    }
+
+@media(max-width: 426px) and (min-width: 320px){
 
   .burger__icon{
     display: inline-block;
@@ -220,12 +231,9 @@
       max-height: 350px;
       }
       .foto .text{
-        position: absolute;
-        top: 80%;
         font-size: 120%;
         color: #ffffff;
-        padding-left: 5%;
-      }
+        }
       .fusingFoto{
         width: 100%;
         height: auto;
@@ -244,6 +252,10 @@
 
       .fusingFoto_block img{
         height: 350px
+      }
+      .fusingFoto_block .text{
+        top: 70%;
+        font-size: 120%;
       }
 
 
