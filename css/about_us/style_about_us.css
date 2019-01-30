@@ -172,10 +172,10 @@ main section{
 }
 
 .info{
-  height: 100px;
+  height: auto;
   text-align: center;
   color: #A60C00;
-  padding: 50px;
+  padding: 20px;
 }
 .info h1{
   padding-bottom: 20px;
