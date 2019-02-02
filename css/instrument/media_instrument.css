@@ -19,9 +19,6 @@
     padding-top: 0;
     font-size: 13px;
     }
-
-
-
 }
 
 @media(min-width:769px) and (max-width:991px){
@@ -57,8 +54,6 @@
 
   .master_class_blok{
     margin: 10px;
-
-
   }
 
   .master_class_blok .img{
@@ -75,8 +70,6 @@
     line-height: 1.3;
     padding-bottom: 10px;
     }
-
-
 }
 
 
@@ -116,7 +109,6 @@
   .logoTel{
     flex-direction: column;
     justify-content: space-between;
-
     }
     .logoTel a{
       height: 75px;
@@ -166,7 +158,7 @@
       padding-top: 0;
       padding-bottom: 30px;
     }
-    }
+}
 
 @media(max-width: 426px) and (min-width: 320px){
 
@@ -185,7 +177,6 @@
     left: 0;
     margin-top: 52px;
     background-image: linear-gradient(to bottom, #ff9808, #fc9f02, #f8a600, #f5ad00, #f1b301, #f2ab00, #f2a400, #f29c00, #f58303, #f56714, #f34723, #ee1430);
-
     z-index: 1000;
     overflow: auto;
   }
@@ -213,7 +204,6 @@
     width: 80%;
     height: 90%;
   }
-
 
     header p{
       font-size: 170%;
@@ -256,8 +246,6 @@
       padding-top: 0;
       padding-bottom: 30px;
     }
-
-
 
       footer li a{
        font-size: 100%;

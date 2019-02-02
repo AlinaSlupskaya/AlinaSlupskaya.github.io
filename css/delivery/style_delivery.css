@@ -16,7 +16,6 @@ body{
 
 header{
   background-image: linear-gradient(to bottom, #ff9808, #fc9f02, #f8a600, #f5ad00, #f1b301, #f2ab00, #f2a400, #f29c00, #f58303, #f56714, #f34723, #ee1430);
-
   overflow: hidden;
   position: static;
   border-radius:5px 5px 0 0;
@@ -37,8 +36,8 @@ header p{
   font-weight:500;
   text-decoration: none;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-
 }
+
 /* Burger */
 .burger {
     text-align: right;
@@ -181,8 +180,6 @@ main section{
   padding-bottom: 20px;
   margin-top: 7%;
   margin-bottom: 7%;
-
-
 }
 .info h1{
   padding-bottom: 20px;
@@ -190,12 +187,10 @@ main section{
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-
 .info p{
   font-size: 120%;
   color: #555555;
   font-style: oblique;
-
 }
 
 /* footer */
@@ -225,8 +220,6 @@ footer{
    color:#FFFFFF;
    vertical-align:top;
    text-decoration: none;
-
-
  }
  .infoAboutUs{
    width: 50%;
@@ -238,7 +231,6 @@ footer{
     color: #FFFFFF;
  }
  svg{
-
    padding-right: 20px;
    width: 6%;
    height: 6%;

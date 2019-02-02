@@ -189,7 +189,6 @@ main section{
   font-size: 120%;
   color: #555555;
   font-style: oblique;
-
 }
 
 .master_class_blok{
@@ -202,8 +201,6 @@ main section{
   margin: 80px;
   margin-top: 0;
   box-sizing: border-box;
-
-
 }
 .master_class_blok .img{
   width:40%;
@@ -265,8 +262,6 @@ footer{
    color:#FFFFFF;
    vertical-align:top;
    text-decoration: none;
-
-
  }
  .infoAboutUs{
    width: 50%;
